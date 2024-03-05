@@ -1345,6 +1345,18 @@ section {
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
+
+  .form-input:focus {
+    border-color: #4d5ae5;
+  }
+
+  .form-input:focus + .input-icon {
+    fill: #4d5ae5;
+  }
+
+  .textarea-input:focus {
+    border-color: #4d5ae5;
+  }
 }
 
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
