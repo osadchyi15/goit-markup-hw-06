@@ -51,7 +51,6 @@ input {
 }
 
 section {
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -172,8 +171,12 @@ section {
 }
 
 /* ========= Our goals =========== */
-.goals .container {
+.goals {
   background-color: #fff;
+}
+
+.goals .container {
+  max-width: 1440px;
   padding: 96px 16px;
 }
 
@@ -223,7 +226,12 @@ section {
 }
 
 /* ========== Our team ========== */
+.team {
+  background-color: #f4f4fd;
+}
+
 .team .container {
+  max-width: 1440px;
   background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
@@ -317,7 +325,12 @@ section {
 }
 
 /* ========== Our Portfolio =========== */
+.portfolio {
+  background-color: #fff;
+}
+
 .portfolio .container {
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   padding: 96px 16px;
@@ -1238,6 +1251,10 @@ section {
     flex-direction: column;
     text-align: left;
     row-gap: 8px;
+  }
+
+  .goals-title {
+    font-size: 20px;
   }
 
   /* ========= Our team =========== */
