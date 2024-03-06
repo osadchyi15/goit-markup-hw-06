@@ -725,7 +725,7 @@ section {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + label > span {
+.visually-hidden:checked + label > .checkbox-ok {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
